@@ -11,7 +11,7 @@ public class Projectile : MonoBehaviour
 
     void Start()
     {
-        Rigidbody2D rb = GetComponent();
+        Rigidbody2D rb = GetComponent<Rigidbody2D>();
         rb.velocity = new Vector2(LaunchSpeed, 0.0f);
     }
 }
