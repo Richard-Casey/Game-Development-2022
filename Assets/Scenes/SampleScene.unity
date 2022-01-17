@@ -854,6 +854,19 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1372004439697553375, guid: 034034ecb7fa20b4591ab64ea6d81685, type: 3}
   m_PrefabInstance: {fileID: 1372004439190836622}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1015515345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015515344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 211d9d2686dc0614790e9d7fcce18428, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ProjectileObject: {fileID: 4209974510456097102, guid: 89b67d3d552a755438536f4d09b953b3, type: 3}
 --- !u!82 &1015515352
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1444,6 +1457,46 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 519420031}
+    - target: {fileID: 1372004439697553368, guid: 034034ecb7fa20b4591ab64ea6d81685, type: 3}
+      propertyPath: m_ActionEvents.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1372004439697553368, guid: 034034ecb7fa20b4591ab64ea6d81685, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_ActionId
+      value: c30d7c80-fc08-4923-bcee-aff3008404fb
+      objectReference: {fileID: 0}
+    - target: {fileID: 1372004439697553368, guid: 034034ecb7fa20b4591ab64ea6d81685, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_ActionName
+      value: Player/Fire[/Keyboard/ctrl]
+      objectReference: {fileID: 0}
+    - target: {fileID: 1372004439697553368, guid: 034034ecb7fa20b4591ab64ea6d81685, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1372004439697553368, guid: 034034ecb7fa20b4591ab64ea6d81685, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1372004439697553368, guid: 034034ecb7fa20b4591ab64ea6d81685, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1015515345}
+    - target: {fileID: 1372004439697553368, guid: 034034ecb7fa20b4591ab64ea6d81685, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1372004439697553368, guid: 034034ecb7fa20b4591ab64ea6d81685, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Fire
+      objectReference: {fileID: 0}
+    - target: {fileID: 1372004439697553368, guid: 034034ecb7fa20b4591ab64ea6d81685, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: FireController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1372004439697553368, guid: 034034ecb7fa20b4591ab64ea6d81685, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 1372004439697553369, guid: 034034ecb7fa20b4591ab64ea6d81685, type: 3}
       propertyPath: audioSource
       value: 

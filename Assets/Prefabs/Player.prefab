@@ -101,6 +101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e16f44e17691e9745a957ff19e8c6708, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 0}
   MovementSpeed: 2
   JumpForce: 4
   movementSmoothing: 0.015
@@ -161,6 +162,10 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: e23583b9-0b64-4ccd-a929-1a5b39aae6fc
     m_ActionName: Player/Jump[/Keyboard/space]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: c30d7c80-fc08-4923-bcee-aff3008404fb
+    m_ActionName: Player/Fire[/Keyboard/ctrl]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: Keyboard & Mouse
   m_DefaultActionMap: Player
